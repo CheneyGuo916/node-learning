@@ -1,0 +1,20 @@
+{
+  "name": "learning-1",
+  "version": "1.0.0",
+  "description": "node学习之路",
+  "main": "timer2.js",
+  "scripts": {
+    "lint": "eslint **/*.js",
+    "start": "node timer2.js -m '上手了' -t 3",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^6.0.0",
+    "ora": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.7.0"
+  }
+}
